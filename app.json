@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "dabwith.me",
+    "slug": "dabwithme",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "me.dabwith.app",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "dabwith.me uses Bluetooth to talk to your dabrite IR thermometer.",
+        "NSBluetoothPeripheralUsageDescription": "dabwith.me uses Bluetooth to talk to your dabrite IR thermometer."
+      }
+    },
+    "android": {
+      "package": "me.dabwith.app",
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "newArchEnabled": true
+  }
+}
